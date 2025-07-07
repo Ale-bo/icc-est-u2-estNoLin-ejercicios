@@ -2,10 +2,11 @@ package main.Ejercicio_03_listLeves;
 
 import java.util.*;
 
+import main.Materia.Models.Node;
+
 
 public class ListLevels {
-
-     public static class Nodo {
+    public static class Nodo {
         public int valor;
         public Nodo izquierda, derecha;
 
